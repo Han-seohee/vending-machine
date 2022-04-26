@@ -203,6 +203,7 @@ h1 {
 .coin {
     width: 100%;
     margin: 10px 0 0 0;
+    cursor: pointer;
 }
 .coinT {
     width: 60%;
@@ -215,6 +216,7 @@ h1 {
 }
 .spin {
     width: 100%;
+    cursor: pointer;
 }
 .change {
     width: 20%;

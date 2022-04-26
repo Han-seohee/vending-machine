@@ -163,5 +163,10 @@ function clickSpin() {
     if(cash>0){
         amount.innerHTML = 0 + "원";
         alert("거스름돈 " + cash + "원을 받으세요.");
+        cash = 0;
+    }
+    if(cash == 0) {
+        // alert("충전된 금액이 없습니다.");
+        cash = 0;
     }
 }
